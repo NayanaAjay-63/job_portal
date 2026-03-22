@@ -67,12 +67,12 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 To explore the dashboard functionalities, you can use the pre-configured demo accounts. (These can also be autofilled via buttons on the login page).
 
 **Job Seeker Demo:**
-* Email: `ajay@gmail.com`
-* Password: `password123`
+* Email: `seeker@example.com`
+* Password: `demo-password`
 
 **Recruiter Demo:**
-* Email: `priya@technova.io`
-* Password: `recruiter123`
+* Email: `recruiter@example.com`
+* Password: `demo-password`
 
 ## 📂 Project Structure
 

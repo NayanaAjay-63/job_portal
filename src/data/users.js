@@ -2,8 +2,8 @@ export const users = [
   {
     id: 1,
     name: "Ajay Kumar",
-    email: "ajay@gmail.com",
-    password: "password123",
+    email: "seeker@example.com",
+    password: "demo-password",
     role: "job_seeker",
     phone: "+91 98765 43210",
     location: "Hyderabad",
@@ -41,9 +41,9 @@ export const users = [
   },
   {
     id: 2,
-    name: "Priya Sharma",
-    email: "priya@technova.io",
-    password: "recruiter123",
+    name: "Priya Nair",
+    email: "recruiter@example.com",
+    password: "demo-password",
     role: "recruiter",
     phone: "+91 87654 32109",
     location: "Hyderabad",
@@ -55,7 +55,8 @@ export const users = [
   },
 ];
 
+// Credentials for the login page demo buttons
 export const demoUsers = {
-  jobSeeker: { email: "ajay@gmail.com", password: "password123" },
-  recruiter: { email: "priya@technova.io", password: "recruiter123" },
+  jobSeeker: { email: "seeker@example.com", password: "demo-password" },
+  recruiter: { email: "recruiter@example.com", password: "demo-password" },
 };
