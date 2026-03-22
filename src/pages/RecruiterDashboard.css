@@ -1,0 +1,125 @@
+.recruiter-jobs-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.recruiter-job-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--border);
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.recruiter-job-row:last-child { border-bottom: none; }
+
+.recruiter-job-row strong {
+  display: block;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.recruiter-job-row span {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+.recruiter-job-row__right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+/* Filter Tabs */
+.recruiter-filter-tabs {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+}
+
+.recruiter-filter-tab {
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.recruiter-filter-tab:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.recruiter-filter-tab--active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+/* Applicant Table */
+.applicant-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.applicant-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.applicant-row:last-child { border-bottom: none; }
+
+.applicant-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background: var(--primary);
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.applicant-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.applicant-info strong {
+  display: block;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.applicant-info span {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+.applicant-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.post-job-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
